@@ -35,14 +35,4 @@ public class DataHelper {
     public static VerificationCode generateRandomVerificationCode() {
         return new VerificationCode(faker.numerify("######"));
     }
-
-    /*@Data
-    @NoArgsConstructor
-    @AllArgsConstructor
-    public static class AuthCode {
-        private String id;
-        private String user_id;
-        private String code;
-        private String created;
-    }*/
 }
